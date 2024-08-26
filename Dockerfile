@@ -18,5 +18,5 @@ WORKDIR /dashboard
 COPY dist/dashboard-${TARGETOS}-${TARGETARCH} ./app
 
 VOLUME ["/dashboard/data"]
-EXPOSE 80 5555
+EXPOSE 48008 45555
 ENTRYPOINT ["/entrypoint.sh"]
